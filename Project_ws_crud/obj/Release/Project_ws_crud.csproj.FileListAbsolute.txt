@@ -1,0 +1,9 @@
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\bin\Release\Project_ws_crud.exe.config
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\bin\Release\Project_ws_crud.exe
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\bin\Release\Project_ws_crud.pdb
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.csprojAssemblyReference.cache
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.Properties.Resources.resources
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.csproj.GenerateResource.cache
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.exe
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.pdb
+D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.Form1.resources
