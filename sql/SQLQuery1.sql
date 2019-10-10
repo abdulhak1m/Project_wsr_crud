@@ -1,4 +1,4 @@
-use dbWS
+use dbRBT
 go
 create table db_table
 (
@@ -12,3 +12,4 @@ create table db_table
 );
 
 select * from db_table
+

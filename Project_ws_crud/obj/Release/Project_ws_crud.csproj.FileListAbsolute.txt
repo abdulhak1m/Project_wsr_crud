@@ -7,3 +7,13 @@ D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud
 D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.exe
 D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.pdb
 D:\Проекты C#\Project_ws_crud\Project_ws_crud\obj\Release\Project_ws_crud.Form1.resources
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\bin\Release\Project_ws_crud.exe.config
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\bin\Release\Project_ws_crud.exe
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\bin\Release\Project_ws_crud.pdb
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.csprojAssemblyReference.cache
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.Form1.resources
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.Properties.Resources.resources
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.csproj.GenerateResource.cache
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.csproj.CoreCompileInputs.cache
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.exe
+G:\Домашние задания по C#\Project_wsr_crud\Project_ws_crud\obj\Release\Project_ws_crud.pdb

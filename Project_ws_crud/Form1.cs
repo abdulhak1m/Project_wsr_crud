@@ -70,15 +70,39 @@ namespace Project_ws_crud
             catch (Exception ex) { MessageBox.Show("Ошибка!", ex.Source); }
             return IsSuccess;
         }
-
+        
         private void btn_Save_Click(object sender, EventArgs e)
         {
             try
             {
                 bool success = Insert();
                 MessageAsterisk(success ? "Данные сохранены!" : "Ошибка!");
+                listBox1.Items.Clear();
+                Listbox();
             }
             catch (Exception ex) { MessageBox.Show("Ошибка!", ex.Source); }
         }
+
+        private async void Listbox()
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(myConnection))
+            {
+                await sqlConnection.OpenAsync();
+                SqlDataReader sqlReader = null;
+                SqlCommand command = new SqlCommand("SELECT * FROM db_table", sqlConnection);
+                try
+                {
+                    sqlReader = await command.ExecuteReaderAsync();
+                    while (await sqlReader.ReadAsync())
+                    {
+
+                        listBox1.Items.Add(Convert.ToString(sqlReader["Id"]) + "    " + Convert.ToString(sqlReader["Имя"]) + "    " + Convert.ToString(sqlReader["Фамилия"]) + "    " + Convert.ToString(sqlReader["Пол"]) + "    " + Convert.ToString(sqlReader["Телефон"]) + "    " + Convert.ToString(sqlReader["instagram"]) + "    " + Convert.ToString(sqlReader["Группа"]));
+                    }
+                }
+                catch (Exception ex) { MessageBox.Show("Что-то пошло не так!", ex.Source); }
+                finally { if (sqlReader != null) { sqlReader.Close(); } }
+            }
+        }
+        void Form1_Load(object sender, EventArgs e) => Listbox();
     }
 }
